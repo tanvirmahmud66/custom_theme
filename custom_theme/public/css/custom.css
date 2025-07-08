@@ -1,6 +1,5 @@
 
-/* Main Layout------------------------------------------------------Main Layout */
-
+/* 
 .layout-main {
     height: calc(100vh - var(--navbar-height) - var(--page-head-height) - 5px) !important;
     max-width: 100% !important;
@@ -44,7 +43,6 @@
   border-color: rgb(50, 139, 241) !important;
 }
 
-/* side bar------------------------------------------------------- side bar */
 
 .active-sidebar{
   background: rgb(84, 162, 250) !important;
@@ -61,4 +59,83 @@
   border-bottom: 1px solid rgb(84, 162, 250) !important;
   color: rgb(49, 139, 243) !important;
   padding-bottom: 9px;
+}
+
+
+
+ */
+
+
+
+
+
+:root {
+  --primary-color: #54a2fa;         /* fallback */
+  --input-bg-color: #e6e6e6;        /* fallback */
+  --scrollbar-track-color: #f1f1f1; /* optional */
+}
+
+.layout-main {
+  height: calc(100vh - var(--navbar-height) - var(--page-head-height) - 5px) !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+}
+
+.section-head,
+.section-body {
+  max-width: 100% !important;
+  margin: 0 !important;
+}
+
+.form-footer {
+  max-width: 100% !important;
+  margin: 0 !important;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--primary-color) var(--scrollbar-track-color) !important;
+}
+
+.form-control {
+  background-color: var(--input-bg-color) !important;
+}
+
+.awesomplete .input-with-feedback {
+  background-color: var(--input-bg-color) !important;
+  color: var(--text-color);
+}
+
+.widget.shortcut-widget-box:hover {
+  --icon-stroke: var(--primary-color) !important;
+  border-color: var(--primary-color) !important;
+}
+
+.form-links .document-link:hover {
+  border-color: var(--primary-color) !important;
+}
+
+.active-sidebar {
+  background: var(--primary-color) !important;
+}
+
+.active-sidebar .sidebar-item-label {
+  color: white !important;
+}
+
+.form-tabs-list .form-tabs .nav-item .nav-link.active {
+  font-weight: 600;
+  border-bottom: 1px solid var(--primary-color) !important;
+  color: var(--primary-color) !important;
+  padding-bottom: 9px;
+}
+
+
+.like-disabled-input {
+  min-height: var(--input-height);
+  border-radius: var(--border-radius-sm);
+  padding: 4px 8px;
+  cursor: default;
+  color: var(--disabled-text-color);
+  background-color: var(--input-bg-color);
 }

@@ -1,0 +1,54 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-07-08 13:52:06.613202",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "custom_theme_settings_section",
+  "primary_color",
+  "input_background_color"
+ ],
+ "fields": [
+  {
+   "fieldname": "custom_theme_settings_section",
+   "fieldtype": "Section Break",
+   "label": "Custom Theme Settings"
+  },
+  {
+   "fieldname": "primary_color",
+   "fieldtype": "Color",
+   "label": "Primary Color"
+  },
+  {
+   "fieldname": "input_background_color",
+   "fieldtype": "Color",
+   "label": "Input Background Color"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2025-07-08 13:53:42.063110",
+ "modified_by": "Administrator",
+ "module": "Custom Theme",
+ "name": "Theme Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}
