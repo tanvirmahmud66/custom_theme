@@ -139,3 +139,11 @@
   color: var(--disabled-text-color);
   background-color: var(--input-bg-color);
 }
+
+
+
+.btn-primary {
+  background-color: var(--primary-color) !important;
+  color: white !important;
+}
+

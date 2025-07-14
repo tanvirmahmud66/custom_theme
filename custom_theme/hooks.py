@@ -11,15 +11,15 @@ app_license = "mit"
 # required_apps = []
 
 # Each item in the list will be shown as an app in the apps page
-# add_to_apps_screen = [
-# 	{
-# 		"name": "custom_theme",
-# 		"logo": "/assets/custom_theme/logo.png",
-# 		"title": "Custom Theme",
-# 		"route": "/custom_theme",
-# 		"has_permission": "custom_theme.api.permission.has_app_permission"
-# 	}
-# ]
+add_to_apps_screen = [
+	{
+		"name": "custom_theme",
+		"logo": "/assets/custom_theme/theme_logo.png",
+		"title": "Custom Theme",
+		"route": "/custom_theme",
+		# "has_permission": "custom_theme.api.permission.has_app_permission"
+	}
+]
 
 # Includes in <head>
 # ------------------

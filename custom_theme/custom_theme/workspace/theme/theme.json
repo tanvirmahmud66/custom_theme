@@ -1,0 +1,41 @@
+{
+ "app": "custom_theme",
+ "charts": [],
+ "content": "[{\"id\":\"N0iuREKi9j\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Theme</span>\",\"col\":12}},{\"id\":\"vJ3lYrREeu\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Theme Settings\",\"col\":3}}]",
+ "creation": "2025-07-14 12:26:17.356022",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "external_link": "/app/theme-settings/Theme Settings",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "tool",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "Theme",
+ "link_type": "DocType",
+ "links": [],
+ "modified": "2025-07-14 12:27:20.948083",
+ "modified_by": "Administrator",
+ "module": "Custom Theme",
+ "name": "Theme",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 24.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Theme Settings",
+   "link_to": "Theme Settings",
+   "type": "DocType"
+  }
+ ],
+ "title": "Theme",
+ "type": "URL"
+}
