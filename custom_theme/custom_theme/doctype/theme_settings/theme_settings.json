@@ -6,8 +6,12 @@
  "engine": "InnoDB",
  "field_order": [
   "custom_theme_settings_section",
+  "navbar",
   "primary_color",
-  "input_background_color"
+  "input_background_color",
+  "column_break_wmts",
+  "button_primary_color",
+  "button_secondary_color"
  ],
  "fields": [
   {
@@ -24,13 +28,32 @@
    "fieldname": "input_background_color",
    "fieldtype": "Color",
    "label": "Input Background Color"
+  },
+  {
+   "fieldname": "column_break_wmts",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "button_primary_color",
+   "fieldtype": "Color",
+   "label": "Button Primary Color"
+  },
+  {
+   "fieldname": "button_secondary_color",
+   "fieldtype": "Color",
+   "label": "Button Secondary Color"
+  },
+  {
+   "fieldname": "navbar",
+   "fieldtype": "Color",
+   "label": "Navbar"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "issingle": 1,
  "links": [],
- "modified": "2025-07-08 13:53:42.063110",
+ "modified": "2025-07-22 16:03:56.658670",
  "modified_by": "Administrator",
  "module": "Custom Theme",
  "name": "Theme Settings",

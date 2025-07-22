@@ -1,78 +1,12 @@
 
-/* 
-.layout-main {
-    height: calc(100vh - var(--navbar-height) - var(--page-head-height) - 5px) !important;
-    max-width: 100% !important;
-    margin: 0 !important;
-  }
-
-
-.section-head,
-.section-body {
-	max-width: 100% !important;
-	margin: 0 !important;
-}
-
-
-.form-footer{
-  max-width: 100% !important;
-  margin: 0 !important;
-}
-
-* {
-  scrollbar-width: thin;
-  scrollbar-color: rgb(84, 162, 250) var(--scrollbar-track-color) !important;
-}
-
-.form-control{
-  background-color: #e6e6e6 !important;
-}
-
-.awesomplete .input-with-feedback {
-  background-color: #e6e6e6 !important;
-  color: var(--text-color);
-}
-
-.widget.shortcut-widget-box:hover {
-  --icon-stroke: rgb(50, 139, 241) !important;
-  border-color: rgb(50, 139, 241) !important;
-}
-
-
-.form-links .document-link:hover {
-  border-color: rgb(50, 139, 241) !important;
-}
-
-
-.active-sidebar{
-  background: rgb(84, 162, 250) !important;
-}
-
-.active-sidebar .sidebar-item-label {
-  color: white !important;
-}
-
-
-
-.form-tabs-list .form-tabs .nav-item .nav-link.active {
-  font-weight: 600;
-  border-bottom: 1px solid rgb(84, 162, 250) !important;
-  color: rgb(49, 139, 243) !important;
-  padding-bottom: 9px;
-}
-
-
-
- */
-
-
-
-
 
 :root {
   --primary-color: #54a2fa;         /* fallback */
   --input-bg-color: #e6e6e6;        /* fallback */
+  --button-primary-color: #eeeeee;
+  --button-secondary-color: #eeeeee;
   --scrollbar-track-color: #f1f1f1; /* optional */
+  --navbar: #eeeeee;
 }
 
 .layout-main {
@@ -143,7 +77,17 @@
 
 
 .btn-primary {
-  background-color: var(--primary-color) !important;
+  background-color: var(--button-primary-color) !important;
   color: white !important;
 }
 
+.btn-default{
+  background-color: var(--button-secondary-color) !important;
+  /* color: white !important; */
+}
+
+
+
+.navbar {
+  background: var(--navbar) !important;
+}

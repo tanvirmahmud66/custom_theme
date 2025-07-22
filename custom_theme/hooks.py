@@ -16,7 +16,7 @@ add_to_apps_screen = [
 		"name": "custom_theme",
 		"logo": "/assets/custom_theme/theme_logo.png",
 		"title": "Custom Theme",
-		"route": "/custom_theme",
+		"route": "/app/theme",
 		# "has_permission": "custom_theme.api.permission.has_app_permission"
 	}
 ]
