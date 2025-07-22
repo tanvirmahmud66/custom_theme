@@ -12,6 +12,7 @@ frappe.after_ajax(() => {
         button_primary_color,
         button_secondary_color,
         navbar,
+        navbar_breadcrumb,
       } = r.message;
 
       const style = document.createElement('style');
@@ -22,6 +23,7 @@ frappe.after_ajax(() => {
           --button-primary-color: ${button_primary_color};
           --button-secondary-color: ${button_secondary_color};
           --navbar:${navbar};
+          --navbar-breadcrumb:${navbar_breadcrumb};
         }
       `;
       document.head.appendChild(style);

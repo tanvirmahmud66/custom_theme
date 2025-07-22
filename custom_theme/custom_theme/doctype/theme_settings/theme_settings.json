@@ -5,8 +5,11 @@
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
-  "custom_theme_settings_section",
+  "navbar_theme_color_section",
   "navbar",
+  "column_break_gyqa",
+  "navbar_breadcrumb",
+  "custom_theme_settings_section",
   "primary_color",
   "input_background_color",
   "column_break_wmts",
@@ -47,13 +50,27 @@
    "fieldname": "navbar",
    "fieldtype": "Color",
    "label": "Navbar"
+  },
+  {
+   "fieldname": "navbar_breadcrumb",
+   "fieldtype": "Color",
+   "label": "Navbar Breadcrumb"
+  },
+  {
+   "fieldname": "navbar_theme_color_section",
+   "fieldtype": "Section Break",
+   "label": "Navbar Theme Color"
+  },
+  {
+   "fieldname": "column_break_gyqa",
+   "fieldtype": "Column Break"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "issingle": 1,
  "links": [],
- "modified": "2025-07-22 16:03:56.658670",
+ "modified": "2025-07-22 17:03:50.087742",
  "modified_by": "Administrator",
  "module": "Custom Theme",
  "name": "Theme Settings",

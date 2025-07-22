@@ -7,6 +7,7 @@
   --button-secondary-color: #eeeeee;
   --scrollbar-track-color: #f1f1f1; /* optional */
   --navbar: #eeeeee;
+  --navbar-breadcrumb:#000000;
 }
 
 .layout-main {
@@ -90,4 +91,11 @@
 
 .navbar {
   background: var(--navbar) !important;
+}
+
+
+
+
+#navbar-breadcrumbs li a {
+  color: var(--navbar-breadcrumb) !important;
 }
