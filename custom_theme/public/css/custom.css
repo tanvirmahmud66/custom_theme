@@ -99,3 +99,6 @@
 #navbar-breadcrumbs li a {
   color: var(--navbar-breadcrumb) !important;
 }
+.btn-reset{
+  color: var(--navbar-breadcrumb) !important;
+}
